@@ -64,6 +64,10 @@ body {
     }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Navigation Bar */
 .navbar {
     background: rgba(10, 14, 39, 0.85);
@@ -85,6 +89,7 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
 
 .logo {
     font-size: 1.35rem;
