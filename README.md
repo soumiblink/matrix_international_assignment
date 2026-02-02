@@ -106,6 +106,3 @@ You can deploy this React app to:
 
 This project is open source and available for personal and commercial use.
 
-## 🤝 Support
-
-For issues or questions, feel free to modify the code or refer to React documentation at [reactjs.org](https://reactjs.org)
