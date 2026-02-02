@@ -21,7 +21,7 @@ A modern, responsive React landing page for an AI consulting business featuring 
 
 1. Navigate to the project directory:
 ```bash
-cd "c:\Users\hp\OneDrive\Documents\Matrix International-Assignment"
+cd "c:\Users\..\Matrix International-Assignment"
 ```
 
 2. Install dependencies:
