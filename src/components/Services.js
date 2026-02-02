@@ -21,21 +21,34 @@ function Services() {
       icon: '📊',
       title: 'Data & Analytics',
       description: 'Transform raw data into actionable insights. Our AI analytics solutions help you make data-driven decisions and identify growth opportunities.'
+    },
+    {
+      icon: '🧬',
+      title: 'Machine Learning Models',
+      description: 'Custom ML models trained on your data. Predictive analytics, computer vision, NLP - we build intelligent systems tailored to your business.'
+    },
+    {
+      icon: '🔐',
+      title: 'AI Security & Ethics',
+      description: 'Ensure your AI systems are secure and ethical. We implement best practices for data privacy, bias detection, and responsible AI deployment.'
     }
   ];
 
   return (
     <section id="services" className="services">
       <div className="section-header">
+        <div className="header-line"></div>
         <h2>Our Services</h2>
-        <p>Cutting-edge AI solutions tailored to your business needs</p>
+        <p>Comprehensive AI solutions tailored to transform your business</p>
       </div>
       <div className="services-grid">
         {servicesData.map((service, index) => (
           <div key={index} className="service-card">
+            <div className="card-number">{String(index + 1).padStart(2, '0')}</div>
             <div className="service-icon">{service.icon}</div>
             <h3>{service.title}</h3>
             <p>{service.description}</p>
+            <div className="card-line"></div>
           </div>
         ))}
       </div>

@@ -11,11 +11,7 @@ function WhyUs() {
             that truly transform businesses. With over 150+ successful projects and a 98% client satisfaction rate, 
             we've helped startups and enterprises alike unlock the power of artificial intelligence.
           </p>
-          <p>
-            Our team of certified AI specialists works closely with you to understand your unique challenges and create 
-            custom solutions that deliver measurable ROI. We're committed to making AI accessible, affordable, and 
-            impactful for businesses of all sizes.
-          </p>
+          
           <div className="achievements">
             <div className="achievement-item">
               <h4>150+</h4>
